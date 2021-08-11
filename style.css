@@ -1,15 +1,19 @@
-h3{
-    font-size: 35px !important;
+body{
+    background-size: cover;
+    background-position: center;
 }
-.btn-success:hover{
-    background-color: blue;
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
 }
 canvas{
-    animation-name:glow ;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-@keyframes glow{
-    from{box-shadow: 1px 1px 38px red;}
-    to{box-shadow: 1px 1px 38px rgb(135, 253, 1);}
+    border-radius: 10px ;
+    box-shadow: 10px 10px 10px red;
 }
